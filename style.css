@@ -26,6 +26,8 @@ body {
 .bg {
   position: absolute;
   z-index: -1;
+  height: 750%;
+  width: 100%;
 }
 
 .nav {
@@ -58,12 +60,16 @@ body {
 
 .main-container h1 {
   position: absolute;
-  top: 270%;
+  top: 350%;
   left: 5%;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: var(--color1);
 }
 
 .main-container p {
   position: absolute;
-  top: 570%;
-  left: 4%;
+  top: 685%;
+  left: 5%;
+  color: var(--color2);
 }
